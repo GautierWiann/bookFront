@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+
+attention certains styles ne se mettent pas en place, il faut les passer en inline
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #FF2E00;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.headerbar {
+  background-color : #FF2E00;
+  border-style: groove;
+  padding-top: 1%;
+  margin-left: -9.3%;
+  margin-right: -9.3%;
+  
+  font-size: 45px;
+  font-family: 'Big Shoulders Inline Display', cursive;
+ }
+
+.logoh {
+  width : auto;
+  height : 60px ;
+  padding-right: 30px;
+  margin-left: 30px;
+ 
+}
+
+.cardMovie {
+  margin-top: 30px;
+  border-color: #148bc2;
+  box-shadow: 8px -7px 2px 5px #126e99;
+  min-height: 55rem;
+  max-height: 55rem;
+}
+
+.buttonNav {
+  color: #F7B538;
+  background-color:#FF2E00;
+  border-color: transparent !important;
+  font-size: 30px;
+  padding-top: 15%;
+  cursor: pointer;
+}
+
+#body {
+  background-color: #F7B538;
+  
+}
+
+#movieContainer {
+  background-color: #148bc2;
+  border-top: transparent;
+  border-style: groove;
+  
+}
+
+.cardmoviePic {
+  height: 30rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2rem;
+  border: #F7B538;
+  border-style:ridge;
+  border-width: 0.3rem;
+}
+
+.movieTitle {
+  text-align: center;
+  font-size:x-large;
+  font-family: 'Big Shoulders Inline Display', cursive;
+}
+
+.moviedesc {
+  text-align: justify;
+  min-height: 8rem;
+  max-height: 8rem;
+}
+
+#starsuser {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#cardcontainerTitle{
+  font-family: 'Big Shoulders Inline Display';
+  padding-top: 2%;
+  color : #F7B538;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 4.5rem;
+  text-shadow: 1px 1px 2px black;
+}
+
+#cardcontainerSubtitle{
+  font-family: 'Big Shoulders Inline Display';
+  border:10px;
+  color : #F7B538;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 2px black;
+}
+
+.watchlistImg {
+  height: 7rem;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: #F7B538;
+  border-style:groove;
+}
+
+.wishlistHead {
+  background-color : #F7B538;
+  color: #148bc2;
+  font-family: 'Big Shoulders Inline Display';
+  text-align: center;
+  font-size: 3rem;
+  border-style: hidden;
+  text-shadow: 1px 1px 2px black;
+}
+
+.wishlistItem {
+  border-color: #148bc2;
+  border-width: 0.5rem;
+  border-style: double;
+  text-align: justify;
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.trashcan {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  color:#148bc2;
+  cursor: pointer;
+}
+
+.popoverH {
+  box-shadow: 8px -7px 2px 9px #126e99;
+}
+
+
+.signIn {
+  border: #000000;
+  border-width: 2px;
+  box-shadow: 8px -7px 2px 9px #126e99;
+}
