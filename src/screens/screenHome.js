@@ -108,7 +108,7 @@ export default function ScreenHome(props) {
                           Bikeshop est un site de vente de vélos. Il reprend les principes du commerce en ligne avec l'utilisation de stripe comme moyen de paiement
                         </CardText>
                       </CardBody>
-                      <a href={'/bikeshop/product'} style={{cursor: 'pointer'}}><Button block outline color='danger' style={{BackgroundColor:"#ff9770", borderColor:'white' }} > Essayer</Button></a>
+                      <a href={'https://gautierwianni.vercel.app/bikeshop/product'} style={{cursor: 'pointer'}}><Button block outline color='danger' style={{BackgroundColor:"#ff9770", borderColor:'white' }} > Essayer</Button></a>
                     </Card>
                   </Col>
 
