@@ -141,6 +141,7 @@ export default function ScreenHome(props) {
                         <CardText className='cardDesc'>
                           Morning News est une application web qui permet d’afficher les news actualisées et de les mettre dans une wishlist pour les sauvegarder en base de données et les lire plus tard.
                         </CardText>
+                        <Link to={'/DailyNews'} style={{cursor: 'pointer'}}><Button block outline color='danger' style={{BackgroundColor:"#ff9770", borderColor:'white' }} > Essayer</Button></Link>
                       </CardBody>
                     </Card>
                   </Col>
@@ -261,7 +262,7 @@ En termes de fonctionnalités, d'affiche des informations clients, un catalogue 
  }
 }
   return (
-    <div className='body'>
+    <div className='body' width='100%'>
       <Container className="accueil1" fluid >
         <Col sm={12}>
 
@@ -318,7 +319,7 @@ En termes de fonctionnalités, d'affiche des informations clients, un catalogue 
           </Row>
 
           <div style={{ backgroundColor: "white" }} className="row">
-            <div id="services">
+            {/* <div id="services">
               <Card id='cardServices'>
 
                 <Col md={{}} xl={{ size: 7, offset: 5 }}> <h5 id='titleServices' style={{ marginTop: "3%", marginLeft: "73%" }}>Mon offre</h5></Col>
@@ -354,7 +355,7 @@ En termes de fonctionnalités, d'affiche des informations clients, un catalogue 
                   </Col>
                 </Row>
               </Card>
-            </div>
+            </div> */}
             <div id="feedupDiv">
               <Col sm={{ size: 10 }}>
                 <Card id="rowFeedUp" >
