@@ -145,7 +145,7 @@ export default function ScreenHome(props) {
                       </CardBody>
                     </Card>
                   </Col>
-                  <img className="arrow" onClick={() => setTableau(1)} style={{ cursor: 'pointer' }} src='https://res.cloudinary.com/dvgscvuar/image/upload/v1660758149/PngItem_644849_evwnme.png' />
+                  {/* <img className="arrow" onClick={() => setTableau(1)} style={{ cursor: 'pointer' }} src='https://res.cloudinary.com/dvgscvuar/image/upload/v1660758149/PngItem_644849_evwnme.png' /> */}
                   </Row>
   )
  } else if (tableau == 1) {
