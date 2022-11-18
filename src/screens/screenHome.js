@@ -64,7 +64,7 @@ export default function ScreenHome(props) {
                               <Card className='badgeCard' pill >React</Card>
                               <Card className='badgeCard' pill>Node.js</Card>
                               <Card className='badgeCard' pill>Javascript</Card>
-                              <Card className='badgeCard' pill>React Stap</Card>
+                              <Card className='badgeCard' pill>React Strap</Card>
                               <Card className='badgeCard' style={{ fontSize: "xs" }} pill>Mongodb</Card>
                               <Card className='badgeCard'>Api movies</Card>
 
@@ -94,12 +94,12 @@ export default function ScreenHome(props) {
 
                           <div className='Cardbadges'>
                             <Row>
-                              <Card className='badgeCard' pill >React</Card>
+                              <Card className='badgeCard' pill >Html</Card>
                               <Card className='badgeCard' pill>Node.js</Card>
                               <Card className='badgeCard' pill>Javascript</Card>
-                              <Card className='badgeCard' pill>React Stap</Card>
-                              <Card className='badgeCard' style={{ fontSize: "xs" }} pill>Mongodb</Card>
-                              <Card className='badgeCard'>Api movies</Card>
+                              <Card className='badgeCard' pill>Css</Card>
+                              <Card className='badgeCard' style={{ fontSize: "xs" }} pill>Stripe</Card>
+                              
 
                             </Row>
                           </div>
@@ -108,7 +108,7 @@ export default function ScreenHome(props) {
                           Bikeshop est un site de vente de vélos. Il reprend les principes du commerce en ligne avec l'utilisation de stripe comme moyen de paiement
                         </CardText>
                       </CardBody>
-                      <a href={'https://gautierwianni.vercel.app/bikeshop/product'} style={{cursor: 'pointer'}}><Button block outline color='danger' style={{BackgroundColor:"#ff9770", borderColor:'white' }} > Essayer</Button></a>
+                      <a href={'https://gautierwianni.vercel.app/product'} style={{cursor: 'pointer'}}><Button block outline color='danger' style={{BackgroundColor:"#ff9770", borderColor:'white' }} > Essayer</Button></a>
                     </Card>
                   </Col>
 
@@ -132,9 +132,9 @@ export default function ScreenHome(props) {
                               <Card className='badgeCard' pill >React</Card>
                               <Card className='badgeCard' pill>Node.js</Card>
                               <Card className='badgeCard' pill>Javascript</Card>
-                              <Card className='badgeCard' pill>React Stap</Card>
+                              <Card className='badgeCard' pill>Redux</Card>
                               <Card className='badgeCard' style={{ fontSize: "xs" }} pill>Mongodb</Card>
-                              <Card className='badgeCard'>Api movies</Card>
+                              <Card className='badgeCard'>Newsapi</Card>
 
                             </Row></div>
                         </CardTitle>
@@ -266,7 +266,7 @@ En termes de fonctionnalités, d'affiche des informations clients, un catalogue 
       <Container className="accueil1" fluid >
         <Col sm={12}>
 
-          <Row style={{ background: 'rgb(65,176,205)' , background: 'linear-gradient(343deg, rgba(65,176,205,1) 0%, rgba(17,121,148,1) 50%, rgba(15,76,92,1) 93%)' }} >
+          <Row style={{  background: 'linear-gradient(343deg, rgba(65,176,205,1) 0%, rgba(17,121,148,1) 50%, rgba(15,76,92,1) 93%)', paddingBottom:"5%" }} >
 
             <Col md={{ size: 7, offset: 1 }} xxl={{ size: 6, offset: 1 }} style={{ marginTop: '5%' }} >
               <h3 id="h3pres">Bonjour, je m'appelle Gautier Wianni</h3>
@@ -275,7 +275,7 @@ En termes de fonctionnalités, d'affiche des informations clients, un catalogue 
 
               <Button className='bouttonAccueil' onClick={() => clickTechno()} outline color='red' style={{ marginLeft: "15%" }}><p className='bouttonAccueilP'>Technologies maîtrisées</p></Button>
               
-              <Button className='bouttonAccueil' onClick={() => clickContact()} outline color='red'><p  className='bouttonAccueilP' >Contact</p></Button>
+              {/* <Button className='bouttonAccueil' onClick={() => clickContact()} outline color='red'><p  className='bouttonAccueilP' >Contact</p></Button> */}
               <Row style={{ marginTop: "2%" }}>
 
 
@@ -289,6 +289,8 @@ En termes de fonctionnalités, d'affiche des informations clients, un catalogue 
                       <img className='technologies' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png' />
                       <img className='technologies' src='https://www.datocms-assets.com/45470/1631110818-logo-react-js.png' />
                       <img className='technologies' src='https://www.datocms-assets.com/45470/1631026680-logo-react-native.png' />
+                      <img className='technologies' src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png' />
+                      <img className='technologies' src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/800px-Nextjs-logo.svg.png' />
                       <img className='technologies' src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png' />
                       <img className='technologies' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png' />
                       <img className='technologies' src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1024px-Git-logo.svg.png' />
@@ -299,7 +301,7 @@ En termes de fonctionnalités, d'affiche des informations clients, un catalogue 
                   </Card>
                 </Collapse>
                 
-                <Collapse isOpen={open3}>
+                {/* <Collapse isOpen={open3}>
                   <Row>
                     <Col sm={{ size: 2, offset: 1 }}>
                       <p style={{ color: "white" }} >wianni.gautier@gmail.com</p>
@@ -307,11 +309,11 @@ En termes de fonctionnalités, d'affiche des informations clients, un catalogue 
                     <Col sm={{ size: 2, offset: 7 }}>
                       <p style={{ color: "white" }}>06 88 18 84 02</p>
                     </Col></Row>
-                </Collapse>
+                </Collapse> */}
 
               </Row>
             </Col>
-            <Col md={{ size: 1 }} xxl={{ size: 1, offset: 2 }} id="colImg" >
+            <Col md={{ size: 1 }} xxl={{ size: 1, offset: 1 }} id="colImg" >
 
               <img id="PP" src='https://res.cloudinary.com/dvgscvuar/image/upload/v1660658337/LA_CAPSULE_17-06-2022-430HD_bx12kh.jpg' />
 
